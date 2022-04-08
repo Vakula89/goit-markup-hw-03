@@ -10,6 +10,7 @@ body {
 }
 .page-header {
   background-color: var(--wite-color);
+  width: 1600px;
 }
 .main-nav {
   display: flex;
@@ -23,6 +24,8 @@ body {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
+  align-items: center;
 }
 .text-logo-header {
   font-family: "Raleway";
@@ -44,6 +47,7 @@ ul {
   margin-left: 93px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 .site-nav .item + .item {
   margin-left: 50px;
@@ -73,9 +77,10 @@ a {
 }
 .auth-nav {
   display: flex;
-  margin-left: auto;
+  margin-left: 331px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
 }
 .auth-nav .item + .item {
   margin-left: 50px;
@@ -100,26 +105,30 @@ a {
   width: 1600px;
   height: 600px;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
 
   text-align: center;
   background: #2f303a;
 }
 .main-text {
+  display: inline-block;
+  width: 696px;
   margin-bottom: 30px;
   margin-top: 200px;
-  height: 50px;
+  margin-left: 452px;
+  margin-right: 452px;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1, 36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--wite-color);
 }
 .button {
+  padding: 10px 32px;
   width: 200px;
+  margin-bottom: 200px;
   cursor: pointer;
   color: #ffffff;
   background-color: var(--hover-color);
@@ -133,7 +142,19 @@ a {
 .button:focus {
   background-color: #188ce8;
 }
+.benefits {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+.benefits .text-title + .text-title {
+  margin-left: 30px;
+}
+
 .text-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   color: var(--accent-color);
   font-weight: 700;
   font-size: 14px;
@@ -141,6 +162,9 @@ a {
   line-height: 1, 14;
 }
 .text-description {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: #757575;
   font-weight: 400;
   font-size: 14px;
