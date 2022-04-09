@@ -20,11 +20,11 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+
   align-items: center;
 }
 .text-logo-header {
@@ -146,8 +146,9 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
+  padding-left: 0;
 }
-.benefits .text-title + .text-title {
+.benefits .text-benefits + .text-benefits {
   margin-left: 30px;
 }
 
@@ -170,24 +171,56 @@ a {
   font-size: 14px;
   line-height: 1, 71;
 }
+
 .text-about-us {
+  margin-top: 94px;
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 17;
   text-align: center;
   color: var(--accent-color);
 }
+.about-us {
+  display: flex;
+  margin-top: 0;
+  padding-left: 0;
+  padding-bottom: 94px;
+}
+.about-us .about-us-img + .about-us-img {
+  margin-left: 30px;
+}
+
 .team {
   background-color: #f5f4fa;
+  width: 1600px;
 }
 .text-team {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 17;
   text-align: center;
   color: var(--accent-color);
 }
+.team-name {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 94px;
+}
+.team-name .name-img + .name-img {
+  margin-left: 30px;
+}
 .text-name {
+  margin-top: 30px;
+  margin-bottom: 0;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1, 19;
@@ -195,16 +228,25 @@ a {
   text-align: center;
 }
 .text-profession {
+  margin-top: 16px;
+  margin-bottom: 30px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 19;
   color: #757575;
   text-align: center;
 }
+
 footer {
   background: #2f303a;
+  width: 1600px;
 }
 .text-logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -214,6 +256,10 @@ footer {
 }
 .web-footer {
   color: var(--hover-color);
+}
+.link-footer {
+  display: inline-block;
+  padding-left: 0;
 }
 .link-adress > a {
   font-family: "Roboto";
