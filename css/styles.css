@@ -103,9 +103,7 @@ a {
 .main-banner {
   display: inline-block;
   width: 1600px;
-  height: 600px;
   margin-top: 0;
-  margin-bottom: 94px;
 
   text-align: center;
   background: #2f303a;
@@ -147,6 +145,7 @@ a {
   margin-bottom: 0;
   display: flex;
   padding-left: 0;
+  padding-top: 94px;
 }
 .benefits .text-benefits + .text-benefits {
   margin-left: 30px;
@@ -173,8 +172,9 @@ a {
 }
 
 .text-about-us {
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
+  margin-top: 0;
 
   font-weight: 700;
   font-size: 36px;
@@ -185,6 +185,7 @@ a {
 .about-us {
   display: flex;
   margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
   padding-bottom: 94px;
 }
@@ -258,10 +259,14 @@ footer {
   color: var(--hover-color);
 }
 .link-footer {
-  display: inline-block;
+  display: block;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .link-adress > a {
+  display: inline-block;
+  padding-bottom: 9px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -273,8 +278,20 @@ footer {
 .link-adress > a:focus {
   color: var(--hover-color);
 }
-.link-mail > a,
+.link-mail > a {
+  display: inline-block;
+  padding-bottom: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 17;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .link-tel > a {
+  display: inline-block;
+  padding-bottom: 60px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
