@@ -12,6 +12,21 @@ body {
 }
 .page-header {
   background-color: var(--wite-color);
+  width: 1600px;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
 }
 .text-logo-header {
   font-family: "Raleway";
@@ -100,8 +115,13 @@ a {
 }
 footer {
   background: #2f303a;
+  width: 1600px;
 }
 .text-logo {
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -112,7 +132,16 @@ footer {
 .web-footer {
   color: var(--hover-color);
 }
+.link-footer {
+  display: block;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .link-adress > a {
+  display: inline-block;
+  padding-bottom: 9px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -123,8 +152,21 @@ footer {
 .link-adress > a:focus {
   color: var(--hover-color);
 }
-.link-mail > a,
+.link-mail > a {
+  display: inline-block;
+  padding-bottom: 9px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 17;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .link-tel > a {
+  display: inline-block;
+  padding-bottom: 60px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
