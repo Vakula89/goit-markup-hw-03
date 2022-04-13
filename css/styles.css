@@ -111,7 +111,7 @@ a {
 .main-text {
   width: 696px;
   margin-bottom: 30px;
-  margin: 0;
+  margin-right: 0;
   text-align: center;
 
   font-weight: 900;
@@ -139,6 +139,7 @@ a {
 }
 section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits {
   margin-top: 0;
@@ -148,6 +149,9 @@ section {
 }
 .benefits .text-benefits + .text-benefits {
   margin-left: 30px;
+}
+.text-benefits {
+  width: 270px;
 }
 
 .text-title {
@@ -171,7 +175,6 @@ section {
 }
 
 .text-about-us {
-  padding-top: 94px;
   margin-bottom: 50px;
   margin-top: 0;
 
@@ -186,7 +189,6 @@ section {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 .about-us .about-us-img + .about-us-img {
   margin-left: 30px;
@@ -194,12 +196,10 @@ section {
 
 .team {
   background-color: #f5f4fa;
-  width: 1600px;
 }
 .text-team {
   margin-top: 0;
   margin-bottom: 50px;
-  padding-top: 94px;
 
   font-weight: 700;
   font-size: 36px;
@@ -207,12 +207,14 @@ section {
   text-align: center;
   color: var(--accent-color);
 }
+img {
+  display: block;
+}
 .team-name {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
 }
 .team-name .name-img + .name-img {
   margin-left: 30px;
