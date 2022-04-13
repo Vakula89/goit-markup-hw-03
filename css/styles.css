@@ -10,8 +10,7 @@ body {
 }
 .page-header {
   background-color: var(--wite-color);
-  width: 1600px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .main-nav {
   display: flex;
@@ -21,12 +20,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 0;
-  margin-bottom: 0;
-
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-logo-header {
   padding-top: 24px;
@@ -47,10 +42,10 @@ ul {
 }
 .site-nav {
   display: flex;
-  margin-left: 0;
+  margin-left: 93px;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 93px;
+  padding-left: 0;
 }
 .site-nav .item + .item {
   margin-left: 50px;
@@ -80,7 +75,8 @@ a {
 }
 .auth-nav {
   display: flex;
-  margin-left: 331px;
+  justify-content: flex-end;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -104,20 +100,19 @@ a {
   color: var(--hover-color);
 }
 .main-banner {
-  display: inline-block;
-  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   margin-top: 0;
 
   text-align: center;
   background: #2f303a;
 }
+
 .main-text {
-  display: inline-block;
   width: 696px;
   margin-bottom: 30px;
-  margin-top: 200px;
-  margin-left: 452px;
-  margin-right: 452px;
+  margin: 0;
+  text-align: center;
 
   font-weight: 900;
   font-size: 44px;
@@ -129,7 +124,6 @@ a {
 .button {
   padding: 10px 32px;
   width: 200px;
-  margin-bottom: 200px;
   cursor: pointer;
   color: #ffffff;
   background-color: var(--hover-color);
@@ -143,12 +137,14 @@ a {
 .button:focus {
   background-color: #188ce8;
 }
+section {
+  padding-top: 94px;
+}
 .benefits {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   padding-left: 0;
-  padding-top: 94px;
 }
 .benefits .text-benefits + .text-benefits {
   margin-left: 30px;
