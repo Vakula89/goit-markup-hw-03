@@ -3,6 +3,12 @@
   --accent-color: #212121;
   --wite-color: #ffffff;
 }
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: var(--wite-color);
@@ -11,6 +17,9 @@ body {
 .page-header {
   background-color: var(--wite-color);
   border-bottom: 1px solid #ececec;
+}
+.header-all {
+  display: flex;
 }
 .main-nav {
   display: flex;
@@ -103,6 +112,7 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-top: 0;
+  text-align: center;
 
   text-align: center;
   background: #2f303a;
@@ -111,7 +121,9 @@ a {
 .main-text {
   width: 696px;
   margin-bottom: 30px;
-  margin-right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
   text-align: center;
 
   font-weight: 900;
@@ -139,7 +151,6 @@ a {
 }
 section {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 .benefits {
   margin-top: 0;
@@ -193,6 +204,9 @@ section {
 .about-us .about-us-img + .about-us-img {
   margin-left: 30px;
 }
+img {
+  display: block;
+}
 
 .team {
   background-color: #f5f4fa;
@@ -220,7 +234,7 @@ img {
   margin-left: 30px;
 }
 .text-name {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
 
   font-weight: 500;
@@ -231,13 +245,18 @@ img {
 }
 .text-profession {
   margin-top: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 19;
   color: #757575;
   text-align: center;
+}
+.name-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--wite-color);
 }
 
 footer {
