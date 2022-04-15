@@ -205,9 +205,6 @@ section {
 .about-us .about-us-img + .about-us-img {
   margin-left: 30px;
 }
-img {
-  display: block;
-}
 
 .team {
   background-color: #f5f4fa;
@@ -225,10 +222,7 @@ img {
 img {
   display: block;
 }
-p {
-  margin: 0;
-  padding: 0;
-}
+
 .team-name {
   display: flex;
   margin-top: 0;
