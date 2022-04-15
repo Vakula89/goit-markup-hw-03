@@ -3,32 +3,34 @@
   --accent-color: #212121;
   --wite-color: #ffffff;
 }
-
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: var(--wite-color);
-  color: #757575;
-
   font-family: "Roboto", sans-serif;
 }
 .page-header {
   background-color: var(--wite-color);
-  width: 1600px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+.header-all {
+  display: flex;
 }
 .main-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 0;
-  margin-bottom: 0;
-  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-logo-header {
   padding-top: 24px;
@@ -49,17 +51,13 @@ ul {
 }
 .site-nav {
   display: flex;
-  margin-left: 0;
+  margin-left: 93px;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 93px;
+  padding-left: 0;
 }
 .site-nav .item + .item {
-  padding-left: 50px;
-}
-
-a {
-  text-decoration: none;
+  margin-left: 50px;
 }
 
 .site-nav .link-header {
@@ -71,6 +69,9 @@ a {
   font-size: 14px;
   font-weight: 500;
   line-height: 1, 14;
+}
+a {
+  text-decoration: none;
 }
 .link-header:hover,
 .link-header:focus {
@@ -84,16 +85,21 @@ a {
 }
 .auth-nav {
   display: flex;
-  margin-left: 0;
+  justify-content: flex-end;
+  margin-left: auto;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 331px;
+  padding-left: 0;
 }
 .auth-nav .item + .item {
   padding-left: 50px;
 }
 
-.link-info {
+.auth-nav .link-info {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: #757575;
   font-size: 14px;
   font-weight: 500;
@@ -147,6 +153,14 @@ h1 {
   background-color: var(--hover-color);
   color: var(--wite-color);
 }
+img {
+  display: block;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
 
 .text-flex {
   display: flex;
@@ -160,8 +174,9 @@ h1 {
   margin: 15px;
   border: 1px solid #eeeeee;
 }
-
 .text-title {
+  margin: 20px 24px 4px 24px;
+
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -169,6 +184,8 @@ h1 {
   background: var(--wite-color);
 }
 .text-main {
+  margin: 0px 24px 20px 24px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1, 88;

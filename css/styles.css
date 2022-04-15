@@ -225,6 +225,10 @@ img {
 img {
   display: block;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
 .team-name {
   display: flex;
   margin-top: 0;
