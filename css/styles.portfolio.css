@@ -9,6 +9,7 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: var(--wite-color);
   font-family: "Roboto", sans-serif;
@@ -115,7 +116,7 @@ a {
 }
 
 h1 {
-  visibility: hidden;
+  display: none;
 }
 .button-nav {
   display: flex;
@@ -176,9 +177,13 @@ p {
 }
 .element-text {
   padding: 20px 24px 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
+
 .text-title {
-  margin: 4px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
@@ -197,13 +202,12 @@ p {
 }
 footer {
   background: #2f303a;
-  width: 1600px;
-  margin-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .text-logo {
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -223,8 +227,7 @@ footer {
 }
 .link-adress > a {
   display: inline-block;
-  padding-bottom: 9px;
-  font-family: "Roboto";
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -237,19 +240,15 @@ footer {
 }
 .link-mail > a {
   display: inline-block;
-  padding-bottom: 9px;
-  font-family: "Roboto";
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .link-tel > a {
   display: inline-block;
-  padding-bottom: 60px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
